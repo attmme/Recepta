@@ -1,0 +1,57 @@
+html {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+    top: 36%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+header {
+    position: relative;
+}
+
+body {
+    background-color: white;
+    font-family: 'proxima-nova', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    max-width: 46%;
+    margin: auto;
+    counter-reset: item 0;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+}
+
+article img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+article {
+    font-size: 16px;
+    padding: 8%;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+ul > li:before{
+    content: "- ";
+}
+
+ol > li:before{
+    content: counter(item) ")";
+    counter-increment: item 1;
+   
+}
