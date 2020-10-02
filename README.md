@@ -1,3 +1,3 @@
 ## Ejercicio Apple pie recipe
 
-![foto](https://ibb.co/QHnTPyF)
+![foto](https://i.ibb.co/qg9cNTM/Captura.png)
